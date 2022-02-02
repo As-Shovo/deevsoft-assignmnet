@@ -10,9 +10,10 @@ function Goal() {
     const [selected, setSelected] = useState('');
 
    const handleSubmitData = () =>{
-       console.log(selected);
+    //    console.log(selected);
        handleStorage(selected);
-       console.log('done');
+       alert(" Your Message send to server Look At The Console ")
+    //    console.log('done');
    }
 
 
